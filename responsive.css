@@ -50,4 +50,14 @@
         'item-7'
         ;
     }
+    /* why us ssection 
+     */
+
+     .why-content {
+        grid-template-areas:
+            'card-1'
+            'card-2'
+            'card-3'
+        ;
+    }
 }
