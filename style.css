@@ -49,6 +49,10 @@ line-height: 1.6rem;
     font-size: 1.1rem;
 }
 
+.f-1-75 {
+    font-size: 1.75rem;
+}
+
 .f-2-5 {
     font-size: 2.5rem;
 }
@@ -179,4 +183,54 @@ nav ul li {
 /* popular tour section */
 .tour-content{
     max-width: 577px;
+}
+
+/* destination section  */
+.destination-p{
+    max-width: 643px;
+    margin: 1.5rem auto 3rem auto;
+}
+
+.grid-item{
+    position: relative;
+}
+.grid-item img{
+    object-fit: cover;
+}
+.grid-item h4{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.destination-grid{
+    display: grid;
+    grid-template-areas: 
+    'item-1 item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2 item-2 item-2 item-2'
+    'item-3 item-3 item-3 item-3 item-4 item-4 item-4 item-4 item-4  item-5 item-5 item-5'
+    'item-6 item-6 item-6 item-6 item-6 item-7 item-7 item-7 item-7 item-7 item-7 item-7'
+    ;
+    gap: 1rem;
+}
+.grid-item-1{
+    grid-area: item-1;
+}
+.grid-item-2{
+    grid-area: item-2;
+}
+.grid-item-3{
+    grid-area: item-3;
+}
+.grid-item-4{
+    grid-area: item-4;
+}
+.grid-item-5{
+    grid-area: item-5;
+}
+.grid-item-6{
+    grid-area: item-6;
+}
+.grid-item-7{
+    grid-area: item-7;
 }
