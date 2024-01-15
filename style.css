@@ -81,7 +81,9 @@ a {
 .f-4 {
     font-size: 4rem;
 }
-
+.m-auto{
+    margin:0 auto;
+}
 .mb-1-5 {
     margin-bottom: 1.5rem;
 }
@@ -153,7 +155,7 @@ img {
     color: var(--text-white);
     border: none;
     border-radius: 8px;
-    width: 174px;
+    min-width: 174px;
 }
 
 /* header style  */
