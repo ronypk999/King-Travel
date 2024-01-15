@@ -39,6 +39,9 @@
     }
 
     /* destination section  */
+    .grid-item h4 {
+        font-size: 1.2rem;
+    }
     .destination-grid{
         grid-template-areas: 
         'item-1'
@@ -50,6 +53,11 @@
         'item-7'
         ;
     }
+    .grid-item img {
+       height: 200px;
+       border-radius: 16px;
+       object-fit: fill ;
+    }
     /* why us ssection 
      */
 
@@ -57,7 +65,7 @@
         grid-template-areas:
             'card-1'
             'card-2'
-            'card-3'
+            'card-3   '
         ;
     }
-}
+}       
