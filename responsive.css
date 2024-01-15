@@ -68,4 +68,24 @@
             'card-3   '
         ;
     }
+
+    /* deals & discount section  */
+    .image-box img{
+        min-height: 50vh;
+        object-fit: cover;
+    }
+    .content-box{
+        padding: 1.25rem;
+        left:5%;
+    }
+    .content-box-2{
+        right:5%;
+    }
+    .content-box-description{
+        flex-direction: column;
+    }
+    
+    .mobile-margin-0{
+        margin-left: 0 !important;
+    }
 }       
