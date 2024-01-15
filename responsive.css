@@ -1,0 +1,40 @@
+/* Movile responsive css ( 600px an down) */
+@media screen and (max-width:600px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .find-now-layer input, .find-now-layer select, .find-now-layer button{
+        width: 100%;
+    }
+    .find-now-layer input{
+        width: 94%;
+    }
+    .find-now-layer select, .find-now-layer button{
+        margin-top:1rem;
+    }
+    .f-4{
+        font-size: 1.4rem;
+        
+    }
+    .banner-content{
+        position: relative;
+    }
+    .find-now{
+        min-width: 0;
+    }
+    .find-now-layer{
+        width: 80%;
+    }
+    .banner > img{
+        object-fit: cover;
+        min-height: 60vh;
+    }
+
+    /* Popular tour section  */
+    .popular-tour{
+        flex-direction: column;
+    }
+}
