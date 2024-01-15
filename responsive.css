@@ -88,4 +88,16 @@
     .mobile-margin-0{
         margin-left: 0 !important;
     }
+
+    /* perfect place section  */
+
+
+    .perfect-place{
+        flex-direction: column;
+    }
+    
+
+
+
+
 }       
