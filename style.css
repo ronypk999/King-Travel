@@ -393,6 +393,7 @@ nav ul li {
 .image-box img {
     max-height: 500px;
     object-fit: fill;
+    border-radius: 1rem;
 }
 
 .content-box-description span {
