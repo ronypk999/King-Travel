@@ -34,7 +34,7 @@
     }
     .banner > img{
         object-fit: cover;
-        min-height: 60vh;
+        min-height: 70vh;
     }
 
     /* Popular tour section  */
@@ -75,7 +75,7 @@
 
     /* deals & discount section  */
     .image-box img{
-        min-height: 70vh;
+        min-height: 60vh;
         object-fit: cover;
     }
     .content-box{
