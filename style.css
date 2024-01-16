@@ -465,11 +465,38 @@ nav ul li {
     border-radius: 8px;
 }
 hr{
-    background: rgba(19, 19, 24, 0.10);
+    background-color: rgba(19, 19, 24, 0.10);
     height: 1px;
+    border: none;
 }
 .news-content{
     border-radius: 16px;
 border: 1px solid var(--primary-color);
 padding: 2.5rem ;
+}
+
+.logo-footer > img {
+    max-width: 60px;
+}
+.footer{
+    max-width: 872px;
+    text-align: center;
+}
+.logo-footer{
+    justify-content: center;
+    gap: 1rem;
+}
+.wm-769{
+    max-width: 769px;
+}
+.icons i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.icons {
+    margin-left: -1rem;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 3rem 1rem;
 }
