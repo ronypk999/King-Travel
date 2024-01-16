@@ -131,6 +131,9 @@
     .tour-content{
         max-width: 95%;
     }
+    .review-card {
+        margin: 0 auto;
+    }
 
 } 
 
