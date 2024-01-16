@@ -19,9 +19,11 @@
 .text-black {
     color: var(--text-black);
 }
-.text-black-2{
+
+.text-black-2 {
     color: var(--text-black-2);
 }
+
 .text-wheat {
     color: var(--text-wheat);
 }
@@ -76,6 +78,7 @@ a {
 .f-2-2 {
     font-size: 2.6rem;
 }
+
 .f-2 {
     font-size: 2rem;
 }
@@ -176,9 +179,11 @@ img {
 .mobile-nav {
     display: none;
 }
-.logo{
+
+.logo {
     gap: 1rem;
 }
+
 nav ul li {
     margin-left: 2.5rem;
     list-style: none;
@@ -205,7 +210,8 @@ nav ul li {
     width: 100%;
     height: 100%;
 }
-.banner > img{
+
+.banner>img {
     border-radius: 16px;
 }
 
@@ -238,14 +244,14 @@ nav ul li {
 
 /* popular tour section */
 .tour-content {
-    max-width: 577px;
+    max-width: 50%;
 }
 
 /* destination section  */
 .destination-p,
 .why-us>p,
 .deal-discount>p,
-.reviews > p {
+.reviews>p {
     max-width: 643px;
     margin: 1.5rem auto 3rem auto;
 }
@@ -403,9 +409,10 @@ nav ul li {
     position: relative;
     border-radius: 16px;
 }
-.perfect-video video{
+
+.perfect-video video {
     width: 100%;
-} 
+}
 
 .perfect-video h4 {
     position: absolute;
@@ -417,37 +424,43 @@ nav ul li {
     font-weight: 700;
     text-align: center;
     line-height: 36px;
-  
+
 }
-.perfect-video video{
+
+.perfect-video video {
     max-width: 610px;
     min-height: 32vw;
     border-radius: 1rem;
 }
 
-.perfect-content p{
+.perfect-content p {
     max-width: 532px;
 }
-.perfect-content ul{
+
+.perfect-content ul {
     max-width: 518px;
 }
-.perfect-content h3{
-    max-width: 448px ;
+
+.perfect-content h3 {
+    max-width: 448px;
 }
-.perfect-content *{
-    margin-bottom:1.25rem;
-}  
-.perfect-place{
+
+.perfect-content * {
+    margin-bottom: 1.25rem;
+}
+
+.perfect-place {
     gap: 2rem;
-    
+
 }
 
 /* newsletter section  */
 
-.news-image{
+.news-image {
     position: relative;
 }
-.news-absolute{
+
+.news-absolute {
     position: absolute;
     right: 5px;
     bottom: 50px;
@@ -457,17 +470,21 @@ nav ul li {
     color: var(--text-white);
     transform: rotate(-19.628deg);
 }
-.news-image p{
+
+.news-image p {
     text-align: center;
 }
-.newsletter{
+
+.newsletter {
     gap: 2rem;
 }
-.news-content form button{
+
+.news-content form button {
     width: 100%;
-   
+
 }
-.news-content form input{
+
+.news-content form input {
     padding: 1rem;
     border: none;
     width: 95%;
@@ -475,55 +492,65 @@ nav ul li {
     margin-bottom: 1rem;
     border-radius: 8px;
 }
-hr{
+
+hr {
     background-color: rgba(19, 19, 24, 0.10);
     height: 1px;
     border: none;
 }
-.news-content{
+
+.news-content {
     border-radius: 16px;
-border: 1px solid var(--primary-color);
-padding: 2.5rem ;
+    border: 1px solid var(--primary-color);
+    padding: 2.5rem;
 }
 
-.logo-footer > img {
+.logo-footer>img {
     max-width: 60px;
 }
-.footer{
+
+.footer {
     max-width: 872px;
     text-align: center;
 }
-.logo-footer{
+
+.logo-footer {
     justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
-.wm-769{
+
+.wm-769 {
     max-width: 769px;
 }
-.icons i{
+
+.icons i {
     font-size: 1.5rem;
     margin-left: 1rem;
 }
+
 .icons {
     margin-left: -1rem;
 }
-footer{
+
+footer {
     background: rgba(19, 19, 24, 0.05);
     padding: 3rem 1rem;
 }
 
 /* reviews section  */
 
-.review-row{
+.review-row {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     flex-basis: 400px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.review-card{
-    max-width: 420px;
+.review-card {
+    max-width: 396px;
     width: 100%;
     min-width: 250px;
     background: var(--primary-color);
@@ -532,13 +559,16 @@ footer{
     padding: 1rem;
     border-radius: 1rem;
 }
-.details i{
+
+.details i {
     color: yellow;
 }
-.review-card img{
+
+.review-card img {
     border-radius: 50%;
     width: 100px;
 }
-.rating-img img{
+
+.rating-img img {
     box-shadow: 0px 2px 3px 4px #dbf735;
 }

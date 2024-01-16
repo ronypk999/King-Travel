@@ -125,6 +125,12 @@
         width: 102%;
        
     }
+    .f-2-2{
+        font-size: 1.6rem;
+    }
+    .tour-content{
+        max-width: 95%;
+    }
 
 } 
 
@@ -147,5 +153,33 @@
     }
     .find-now-layer input{
         width: 93%;
+    }
+  }
+
+  @media screen and (max-width: 1039px) and (min-width: 991px) {
+    .review-card {
+        max-width: 397px;
+    }
+    .news-content form input{
+        width: 92%;
+    }
+  }
+  @media screen and (max-width: 1299px) and (min-width: 1040px) {
+    .news-content form input{
+        width: 93%;
+    }
+  }
+  
+  @media screen and (max-width: 1400px) and (min-width: 1300px) {
+    .review-card {
+        max-width: 336px;
+    }
+    .news-content form input{
+        width: 94%;
+    }
+  }
+  @media screen and (max-width: 1500px) and (min-width: 1401px) {
+    .review-card {
+        max-width: 366px;
     }
   }
