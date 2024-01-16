@@ -10,7 +10,7 @@
         width: 100%;
     }
     .find-now-layer input{
-        width: 94%;
+        width: 95%;
     }
     .find-now-layer select, .find-now-layer button{
         margin-top:1rem;
@@ -121,4 +121,31 @@
     .f-2-5{
         font-size: 1.5rem;
     }
-}       
+    .news-content form button{
+        width: 102%;
+       
+    }
+
+} 
+
+
+
+
+@media screen and (max-width: 500px) and (min-width: 450px) {
+    .news-content form button{
+        width: 104%;
+       
+    }
+    .find-now-layer input{
+        width: 94%;
+    }
+  }
+@media screen and (max-width: 449px) and (min-width: 300px) {
+    .news-content form button{
+        width: 106%;
+       
+    }
+    .find-now-layer input{
+        width: 93%;
+    }
+  }
