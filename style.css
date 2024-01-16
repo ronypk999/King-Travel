@@ -221,7 +221,8 @@ nav ul li {
     width: fit-content;
     padding: 1rem;
     margin: 0 auto;
-
+    display: flex;
+    align-items: center;
 }
 
 .find-now {
