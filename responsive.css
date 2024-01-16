@@ -95,7 +95,10 @@
     .perfect-place{
         flex-direction: column;
     }
-    
+    .perfect-video video{
+        width:90vw;
+        min-height: 257px;
+    }
 
 
 

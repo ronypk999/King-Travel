@@ -391,7 +391,7 @@ nav ul li {
 }
 .perfect-video video{
     width: 100%;
-}
+} 
 
 .perfect-video h4 {
     position: absolute;
@@ -403,6 +403,11 @@ nav ul li {
     font-weight: 700;
     text-align: center;
     line-height: 36px;
+  
+}
+.perfect-video video{
+    max-width: 610px;
+    min-height: 424px;
 }
 
 .perfect-content p{
