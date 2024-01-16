@@ -4,6 +4,7 @@
     --primary-color: #FF5400;
     --text-white: #fff;
     --text-black: #131318;
+    --text-black-2: #424247;
     --text-black-p: rgba(19, 19, 24, 0.70);
     --text-wheat: #5A5A5D;
 }
@@ -18,7 +19,9 @@
 .text-black {
     color: var(--text-black);
 }
-
+.text-black-2{
+    color: var(--text-black-2);
+}
 .text-wheat {
     color: var(--text-wheat);
 }
@@ -31,6 +34,7 @@
 
 a {
     text-decoration: none;
+    color: var(--text-black-2);
 }
 
 /* font-weight */
@@ -172,7 +176,9 @@ img {
 .mobile-nav {
     display: none;
 }
-
+.logo{
+    gap: 1rem;
+}
 nav ul li {
     margin-left: 2.5rem;
     list-style: none;
@@ -234,7 +240,8 @@ nav ul li {
 /* destination section  */
 .destination-p,
 .why-us>p,
-.deal-discount>p {
+.deal-discount>p,
+.reviews > p {
     max-width: 643px;
     margin: 1.5rem auto 3rem auto;
 }
@@ -499,4 +506,35 @@ padding: 2.5rem ;
 footer{
     background: rgba(19, 19, 24, 0.05);
     padding: 3rem 1rem;
+}
+
+/* reviews section  */
+
+.review-row{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    justify-content: center;
+}
+
+.review-card{
+    max-width: 420px;
+    width: 100%;
+    min-width: 250px;
+    background: var(--primary-color);
+    color: var(--text-white);
+    box-shadow: 4px 5px 2px 2px grey;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.details i{
+    color: yellow;
+}
+.review-card img{
+    border-radius: 50%;
+    width: 100px;
+}
+.rating-img img{
+    box-shadow: 0px 2px 3px 4px #dbf735;
 }
