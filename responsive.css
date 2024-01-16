@@ -22,6 +22,10 @@
     .banner-content{
         position: relative;
     }
+    .banner-des{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .find-now{
         min-width: 0;
     }
@@ -30,7 +34,7 @@
     }
     .banner > img{
         object-fit: cover;
-        min-height: 60vh;
+        min-height: 70vh;
     }
 
     /* Popular tour section  */
@@ -71,7 +75,7 @@
 
     /* deals & discount section  */
     .image-box img{
-        min-height: 50vh;
+        min-height: 70vh;
         object-fit: cover;
     }
     .content-box{
